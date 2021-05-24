@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Store</title>
+    <script src="js/scripts.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Edit Profile</a>
+        <a href="#">Notifications</a>
+        <a href="#">Wishlist</a>
+    </div>
+    <ul class="topMenu">
+        <li><span onclick="openNav()"><i class="fa fa-bars"></i></span></li>
+        <li>
+            <span style="color: #0ACF83;"><i class="fa fa-headphones"></i></span>
+            <span style="font-family: DM Sans; font-size: 19px; font-weight: bold;">Audio</span>
+        </li>
+        <li><i class="fa fa-user"></i></li>
+    </ul>
+    <div id="topFrame" class="topFrame">
+        <h1>Hi, Cairo</h1>
+        <h2>What are you looking for today?</h2>
+    </div>
+    <input class="buscarProduto" type="search" style="font-family: FontAwesome;" placeholder="&#xf002    Search Headphone">
+    
+    <div id="botFrame" class="botFrame">
+        <ul>
+            <li id="bot1">Headphone</li>
+            <li id="bot2">Headband</li>
+            <li id="bot3">Earpads</li>
+            <li id="bot4">Cable</li>
+        </ul>
+
+        <a href="produtos/tma-2.html">
+        <div class="container">
+            <div>
+                <p>TMA-2
+                    Modular
+                    Headphone</p>
+                    <span>
+                        Shop Now <i style="font-family: FontAwesome;">&#xf061</i>
+                    </span>
+            </div>
+ 
+            <img src="images/fone.png">
+        </div>
+        </a>
+
+        <div id="featured">
+            <span id="f1">Featured Products</span>
+            <span id="f2">See all</span>
+        </div>
+
+        <div class="containerBot">
+            <div id="products">
+                <div class="product">
+                    <img src="images/fone.png">
+                    <span id="descripition">TMA-2 HD Wireless</span>
+                    <span id="price">USD 350</span>
+                </div>
+                <div class="product">                    
+                    <img src="images/cable.png">
+                    <span id="descripition">CO2 - Best Cable</span>
+                    <span id="price">USD 25</span>
+                </div>
+                <div class="product">                    
+                    <img src="images/fone.png">
+                    <span id="descripition">TMA-2 HD Wireless</span>
+                    <span id="price">USD 350</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
